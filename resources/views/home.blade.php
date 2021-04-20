@@ -37,18 +37,31 @@
                   </div>
                   <div class="kartu-tags">
                     <a href="#" class="kartu-btn">Lihat</a>
-                  </div>
+                  </div>                  
                 </div>
                 <div class="cards card-2">
                   <div class="kartu-content">
                     <h3><a href="#">Edit Loket</a></h3>
                     <p>Tambah, Edit, Hapus Loker Pelayanan</p>
-                    <a href="#" class="kartu-btn">Lihat</a>
+                    <a href="{{ route('blogs.index') }}" class="kartu-btn">Lihat</a>
                   </div>
                   <div class="kartu-tags">
-                    <a href="#" class="kartu-btn">Lihat</a>
+                    <a href="{{ route('blogs.index') }}" class="kartu-btn">Lihat</a>
                   </div>
                 </div>
+                @if (Route::has('register'))
+                <div class="cards card-2">
+                  <div class="kartu-content">
+                    <h3><a href="#">Register Admin</a></h3>
+                    <p>Register Admin</p>
+                    <a href="{{ route('register') }}" class="kartu-btn">Lihat</a>
+                  </div>
+                  <div class="kartu-tags">
+                    <a href="{{ route('register') }}" class="kartu-btn">Lihat</a>
+                  </div>
+                </div>
+                @endif
+
             </div>
         </div>
 @endsection

@@ -9,9 +9,9 @@ class LoketController extends Controller
     public function index()
     {
    // mengambil data dari table pegawai
-   $loket = DB::table('loket')->get();
+   $blogs = DB::table('blogs')->get();
  
    // mengirim data pegawai ke view index
-   return view('welcome',['loket' => $loket]);
+   return view('welcome',['blogs' => $blogs]);
 }
 }

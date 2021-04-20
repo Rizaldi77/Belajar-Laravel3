@@ -78,7 +78,7 @@ h6 {
     z-index: 997;
     transition: all 0.5s;
     padding: 15px 0;
-    background: #929791;
+    background: #002b3f;
 }
 
 #header.header-scrolled {
@@ -166,7 +166,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #2977ec;
+    color: #307cec;
     text-decoration: none;
 }
 
@@ -397,7 +397,7 @@ h6 {
     border-radius: 3px;
     transition: 0.5s;
     color: #fff;
-    background: #1d7cbf;
+    background: #002b3f;
 }
 
 #hero .btn-get-started:hover {
@@ -1593,7 +1593,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: #929791;
+    background: #002b3f;
     padding: 0 0 30px 0;
     color: #f2f4f5;
     font-size: 14px;
@@ -1775,11 +1775,17 @@ section {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap');
+.row{
+    justify-content: center;
+    flex-direction: row;
+}
 
 .kartu {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
 .kartu body {
@@ -1787,11 +1793,6 @@ section {
   line-height: 1.5rem;
   background-color: #333;
 }
-
-.row pb-5 mb-4{
-    align-items: center;
-}
-
 
 .kartu a {
   text-decoration: none;
@@ -1828,10 +1829,10 @@ section {
 }
 
 .kartu-content h3 {
-  font-size: 1.8rem;
+  font-size: 25px;
   text-align: center;
   line-height: 2rem;
-  padding: 1rem;
+  padding: 0rem;
   transition: all 0.5s ease;
 }
 
@@ -1842,7 +1843,9 @@ section {
 
 /* Card image */
 .kartu-container .card-1 {
-  background: url(https://source.unsplash.com/tpXhecfsGVg/1000x1500) no-repeat center center/cover;
+  background: url("../img/background.jpg") no-repeat center center/cover;
+  width: 250px;
+    height: 350px;
 }
 
 .kartu-container .card-2 {
@@ -1924,3 +1927,24 @@ section {
 .kartu-content:hover h3 {
   transform: scale(0.8) translateY(-30px);
 }
+
+.judul h1{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #242512;
+}
+
+.pull-right{
+    font-family: "Poppins", sans-serif;
+    margin-top:10px;
+}
+
+tr table{
+    font-family: "Poppins", sans-serif;
+}
+
+.tabel{
+    font-family: "Poppins", sans-serif;
+}
+

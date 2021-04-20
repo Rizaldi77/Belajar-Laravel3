@@ -17,10 +17,8 @@ class CreateFormsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email');
-            $table->date('dob');
-            $table->text('address')->nullable();
-            $table->timestamps();
-            $table->string('nohp');
+            $table->text('address');
+            $table->string('notelp');
             $table->string('noktp');
             $table->string('instansi');
             $table->string('loket');

@@ -18,31 +18,32 @@
         <img src="assets/img/kemendikbudlogo.png" class="img-fluid" alt="Logo Kemendikbud">
         </div>
     </div>
-    </div>
+</div>
+    
 
     </section><!-- End Hero -->
     <br>
     <br>
 
     <main id="main">
-      <div class="row pb-5 mb-4">
-    @foreach($loket as $p)
+  <div class="container">
+    <div class="row-box">
+    <div class ="row">
+    @foreach($blogs as $p)
         <div class="kartu">
             <div class="kartu-container">
                 <div class="cards card-1">
                   <div class="kartu-content">
                   
-                    <h3><a href="#">{{ $p->namaloket }}</a></h3>
-                    <p>{{ $p->deskripsi }}</p>
+                    <h3><a href="#">{{ $p->description }}</a></h3>
                     <a href="#" class="kartu-btn">Deskripsi</a>
                   
-                  </div>
-                  <div class="kartu-tags">
-                    <a href="#" class="kartu-btn">Loket 1</a>
                   </div>
                 </div>
             </div>
         </div>
-        @endforeach
+    @endforeach
+</div>
+</div>
 </div>
 @endsection

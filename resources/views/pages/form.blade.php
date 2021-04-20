@@ -7,7 +7,9 @@
 
 <br>
 <div class="container">
-<h1>Pengisian Form ULT</h1>
+<div class="judul">
+    <h1>Pengisian Formulir ULT</h1>
+</div>
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -41,16 +43,36 @@
                             <label>Email</label>
                             <input type="email" class="form-control" name="email" value="{{ old('email') }}">
                         </div>
-                        <div>
-                            <label>Pilih Loket yang dituju</label>
+                        <div class="form-group">
+                            <label>Pilih Loket atau Layanan yang dituju</label>
                             <select type="text" class="form-control" name="loket" value="{{ old('loket') }}">
                               <option selected disabled value="">Loket yang dituju</option>
-                              <option value="1">Sumber Daya</option>
-                              <option value="2">Akademik Kemahasiswaan</option>
-                              <option value="3">Kelembagaan</option>
-                              <option value="4">Sistem Informasi dan Kerjasama</option>
-                              <option value="5">TU dan Barang Milik Negara</option>
-                              <option value="6">Perencanaan dan Penganggaran</option>
+                              <option value="1">PENETAPAN INPASSING PANGKAT DOSEN BUKAN PEGAWAI NEGERI SIPIL GOLONGAN III</option>
+                              <option value="2">PENETAPAN INPASSING PANGKAT DOSEN BUKAN PEGAWAI NEGERI SIPIL GOLONGAN IV</option>
+                              <option value="3">MUTASI DOSEN PEGAWAI NEGERI SIPIL DIPEKERJAKAN (DPK)</option>
+                              <option value="4">REKOMENDASI MUTASI DOSEN PEGAWAI NEGERI SIPIL</option>
+                              <option value="5">TUGAS BELAJAR PEGAWAI NEGERI SIPIL DIPEKERJAKAN (DPK)</option>
+                              <option value="6">IZIN BELAJAR DOSEN PEGAWAI NEGERI SIPIL DIPEKERJAKAN (DPK)</option>
+                              <option value="7">Sumber Daya</option>
+                              <option value="8">Akademik Kemahasiswaan</option>
+                              <option value="9">Kelembagaan</option>
+                              <option value="10">Sistem Informasi dan Kerjasama</option>
+                              <option value="11">TU dan Barang Milik Negara</option>
+                              <option value="12">Perencanaan dan Penganggaran</option>
+                              <option value="13">Sumber Daya</option>
+                              <option value="14">Akademik Kemahasiswaan</option>
+                              <option value="15">Kelembagaan</option>
+                              <option value="16">Sistem Informasi dan Kerjasama</option>
+                              <option value="17">TU dan Barang Milik Negara</option>
+                              <option value="18">Perencanaan dan Penganggaran</option>
+                              <option value="19">Sumber Daya</option>
+                              <option value="20">Akademik Kemahasiswaan</option>
+                              <option value="21">Kelembagaan</option>
+                              <option value="22">Sistem Informasi dan Kerjasama</option>
+                              <option value="23">TU dan Barang Milik Negara</option>
+                              <option value="24">Perencanaan dan Penganggaran</option>
+                              <option value="25">TU dan Barang Milik Negara</option>
+                              <option value="26">Perencanaan dan Penganggaran</option>
                             </select>
                         </div>
                         <div class="form-group">
