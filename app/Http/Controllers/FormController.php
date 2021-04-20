@@ -6,18 +6,14 @@ use Illuminate\Http\Request;
 
 use App\Models\Form;
 use App\Models\Post;
+use DB;
 
 class FormController extends Controller
 {
     public function create()
     {
-    	return view('pages.form');
-    }
-
-    public function combo()
-    {
-        $katdb = Form::lists('id, namaloket';
-        return view::('combo')->with('')
+        $data = DB::table('blogs')->get();
+        return view('pages.form', compact('data'));
     }
 
     public function proses(Request $request)
@@ -32,9 +28,8 @@ class FormController extends Controller
             'loket' => request('loket'),
             'keperluan' => request('keperluan')
         ]);
-        //dd($request->all());
  
-        //return view('pages.proses', ['input' => $loket]);
+        return view('pages.proses');
     }
     
 }

@@ -1948,3 +1948,26 @@ tr table{
     font-family: "Poppins", sans-serif;
 }
 
+.kpsntlsn {
+    text-align: center;
+}
+
+.kpsntlsn>input {
+    visibility: hidden;
+    position: absolute;
+}
+
+.kpsntlsn>div {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.kpsntlsn>div:hover {
+    border: 1px solid #5353;
+}
+
+.kpsntlsn>input:checked+div {
+    background-color: #b1b1b1;
+    padding: 5px;
+}
+
