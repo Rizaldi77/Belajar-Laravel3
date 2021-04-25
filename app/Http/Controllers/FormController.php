@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\Form;
+use App\Models\Rekap;
 use App\Models\Post;
 use DB;
 
@@ -18,7 +18,7 @@ class FormController extends Controller
 
     public function proses(Request $request)
     {
-        Form::create([
+        Rekap::create([
             'name' => request('name'),
             'address' => request('address'),
             'instansi' => request('instansi'),

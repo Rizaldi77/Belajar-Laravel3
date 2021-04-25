@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\RekapController;
+use App\Http\Controllers\TabelController;
+use App\Http\Controllers\DataTablesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,5 +38,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::resource('/blogs', BlogController::class);
-// Route::resource('projects', 'ProjectController');
-Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('index');
+
+Route::resource('/datatables', DataTablesController::class);

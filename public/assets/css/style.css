@@ -364,9 +364,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/bg2.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:inherit;
     background-position: center;
     margin-top: 50px;
     padding: 200px 0;
@@ -378,12 +378,14 @@ h6 {
     font-weight: 700;
     line-height: 56px;
     color: #364146;
+    font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
     color: #576971;
     margin-bottom: 30px;
     font-size: 24px;
+    font-family: "Poppins", sans-serif;
 }
 
 #hero .btn-get-started {
@@ -420,12 +422,16 @@ h6 {
 
 @media (max-width: 992px) {
     #hero h1 {
-        font-size: 32px;
+        font-size: 40px;
         line-height: 40px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
     }
 
     #hero h2 {
         font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
     }
 }
 
@@ -434,10 +440,10 @@ h6 {
 --------------------------------------------------------------*/
 #hero-admin {
     width: 100%;
-    background-image: url("../img/background-admin.jpg");
+    background-image: url("../img/bgadm.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size:inherit;
+    background-position:center;
     margin-top: 50px;
     padding: 200px 0;
 }
@@ -448,12 +454,14 @@ h6 {
     font-weight: 700;
     line-height: 56px;
     color: #364146;
+    font-family: "Poppins", sans-serif;
 }
 
 #hero-admin h2 {
     color: #576971;
     margin-bottom: 30px;
     font-size: 24px;
+    font-family: "Poppins", sans-serif;
 }
 
 #hero-admin .btn-get-started {
@@ -490,12 +498,16 @@ h6 {
 
 @media (max-width: 992px) {
     #hero-admin h1 {
-        font-size: 32px;
+        font-size: 40px;
         line-height: 40px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
     }
 
     #hero-admin h2 {
         font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
     }
 }
 /*--------------------------------------------------------------
@@ -1753,7 +1765,7 @@ section {
 }
 
 .vh-10 {
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/bgadm.jpg");
     padding-top: 5em;
     padding-bottom: 5em;
 
@@ -1770,7 +1782,7 @@ section {
     border-radius: 3px;
     transition: 0.5s;
     color: #fff;
-    background: #1d7cbf;
+    background: #002b3f;
 }
 
 
@@ -1789,14 +1801,17 @@ section {
 }
 
 .kartu body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5rem;
   background-color: #333;
+  font-size: 15px;
 }
 
 .kartu a {
   text-decoration: none;
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
 }
 
 .kartu-container {
@@ -1843,17 +1858,9 @@ section {
 
 /* Card image */
 .kartu-container .card-1 {
-  background: url("../img/background.jpg") no-repeat center center/cover;
+  background: url("../img/kartu.png") no-repeat center center/cover;
   width: 250px;
     height: 350px;
-}
-
-.kartu-container .card-2 {
-  background: url(https://source.unsplash.com/qmnpqDwla_E/800x450) no-repeat center center/cover;
-}
-
-.kartu-container .card-3 {
-  background: url(https://source.unsplash.com/sPPIyVH1DHk/873x1310) no-repeat center center/cover;
 }
 
 /* Add a dark overlay for text visibility */

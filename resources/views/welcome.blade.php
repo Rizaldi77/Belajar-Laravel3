@@ -11,7 +11,7 @@
         <div>
             <h1>Unit Layanan Terpadu</h1>
             <h2>LEMBAGA LAYANAN PENDIDIKAN TINGGI WILAYAH V Yogyakarta</h2>
-            <a href="{{ route('form') }}" class="btn-get-started scrollto">Isi Formulir</a>
+            <a href="{{ route('form') }}" class="btn-get-started">Isi Formulir</a>
         </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">

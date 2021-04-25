@@ -33,13 +33,13 @@
                   <div class="kartu-content">
                     <h3><a href="#">Rekap Data</a></h3>
                     <p>Rekap data Harian, Bulanan, Tahunan.</p>
-                    <a href="#" class="kartu-btn">Lihat</a>
+                    <a href="{{ route('datatables.index') }}" class="kartu-btn">Lihat</a>
                   </div>
                   <div class="kartu-tags">
-                    <a href="#" class="kartu-btn">Lihat</a>
+                    <a href="{{ route('datatables.index') }}" class="kartu-btn">Lihat</a>
                   </div>                  
                 </div>
-                <div class="cards card-2">
+                <div class="cards card-1">
                   <div class="kartu-content">
                     <h3><a href="#">Edit Loket</a></h3>
                     <p>Tambah, Edit, Hapus Loker Pelayanan</p>
@@ -50,7 +50,7 @@
                   </div>
                 </div>
                 @if (Route::has('register'))
-                <div class="cards card-2">
+                <div class="cards card-1">
                   <div class="kartu-content">
                     <h3><a href="#">Register Admin</a></h3>
                     <p>Register Admin</p>

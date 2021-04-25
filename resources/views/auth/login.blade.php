@@ -1,20 +1,12 @@
 @extends('layouts.main');
 @section('title', 'Halaman Login Admin');
-
 @section('content')
-
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br>
 <header class="text-center mb-1">
-        <h3 class="font-weight-bold">Login Admin LLDIKTI Wilayah V</h3>
-        <p class="font-italic text-muted mb-0">Jika belum punya akun, silahkan Register<a class="btn btn-link" href="{{ route('register') }}">
-                                        {{ __('disini') }}
-                                    </a>
-                                </p>
-    </header>
+    <div class="judul">
+        <h1>Login Admin LLDIKTI Wilayah V</h1>
+    </div>
+</header>
 <main class="vh-10">
 <div class="container">
     <div class="row justify-content-center">
@@ -27,7 +19,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Username Admin') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Admin') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>

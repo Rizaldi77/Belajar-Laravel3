@@ -49,8 +49,7 @@
         </tr>
         @endforeach
     </table>
-  
-    {!! $blogs->links() !!}
+
     </div>
 </div>
       

@@ -9,6 +9,15 @@
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
+
+  <!-- Data Table -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+ 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -35,6 +44,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  @livewireStyles
 </head>
 
 <body>
@@ -142,6 +152,7 @@
 
   <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
 
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -154,7 +165,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  @livewireScripts
 </body>
 
 </html>
