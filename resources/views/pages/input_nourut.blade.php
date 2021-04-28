@@ -14,9 +14,17 @@
                 <div class="card-body">
                     <form method="POST" action="/feedbackproses">
                         @csrf
- 
                         <div class="form-group">
-                            <label>No urut</label>
+                            <label>Loket</label>
+                            <select id="cmbobox" type="text" class="form-control mb-3" name="loket" value="{{ old('loket') }}">
+                                <option disabled></option>
+                                @foreach($data as $d)
+                                <option value="{{$d->id}}">{{$d->description}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>No Urut Setelah Huruf</label>
                             <input type="text" class="form-control" name="no_urut" value="{{ old('no_urut') }}" required>
                         </div>
                         <div>

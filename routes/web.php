@@ -40,3 +40,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('/blogs', BlogController::class);
 
 Route::resource('/datatables', DataTablesController::class);
+Route::resource('/datakepuasan', DataKepuasanController::class);

@@ -50,16 +50,16 @@
                   </div>
                 </div>
                 @if (Route::has('register'))
-                <div class="cards card-1">
+                {{-- <div class="cards card-1">
                   <div class="kartu-content">
-                    <h3><a href="#">Register Admin</a></h3>
-                    <p>Register Admin</p>
-                    <a href="{{ route('register') }}" class="kartu-btn">Lihat</a>
+                    <h3><a href="#">Data Kepuasan</a></h3>
+                    <p>Rekap Data Kepuasan berdasarkan Pelayanan</p>
+                    <a href="{{ route('datakepuasan.index') }}" class="kartu-btn">Lihat</a>
                   </div>
                   <div class="kartu-tags">
-                    <a href="{{ route('register') }}" class="kartu-btn">Lihat</a>
+                    <a href="{{ route('datakepuasan.index') }}" class="kartu-btn">Lihat</a>
                   </div>
-                </div>
+                </div> --}}
                 @endif
 
             </div>
