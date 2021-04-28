@@ -232,4 +232,6 @@ return [
 
     ],
 
+    'Carbon' => 'Carbon\Carbon',
+
 ];
